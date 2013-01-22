@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4518309116AE66FC00377F5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4518309016AE66FC00377F5B /* UIKit.framework */; };
+		4518309316AE66FC00377F5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4518309216AE66FC00377F5B /* Foundation.framework */; };
+		4518309516AE66FC00377F5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4518309416AE66FC00377F5B /* CoreGraphics.framework */; };
+		4518309B16AE66FC00377F5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4518309916AE66FC00377F5B /* InfoPlist.strings */; };
+		4518309D16AE66FC00377F5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4518309C16AE66FC00377F5B /* main.m */; };
+		451830A116AE66FC00377F5B /* PNTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 451830A016AE66FC00377F5B /* PNTAppDelegate.m */; };
+		451830A316AE66FC00377F5B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 451830A216AE66FC00377F5B /* Default.png */; };
+		451830A516AE66FC00377F5B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 451830A416AE66FC00377F5B /* Default@2x.png */; };
+		451830A716AE66FC00377F5B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 451830A616AE66FC00377F5B /* Default-568h@2x.png */; };
+		451830AA16AE66FC00377F5B /* PNTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451830A916AE66FC00377F5B /* PNTViewController.m */; };
+		451830AD16AE66FC00377F5B /* PNTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451830AB16AE66FC00377F5B /* PNTViewController.xib */; };
+		451830B516AE66FC00377F5B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451830B416AE66FC00377F5B /* SenTestingKit.framework */; };
+		451830B616AE66FC00377F5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4518309016AE66FC00377F5B /* UIKit.framework */; };
+		451830B716AE66FC00377F5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4518309216AE66FC00377F5B /* Foundation.framework */; };
+		451830BF16AE66FC00377F5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 451830BD16AE66FC00377F5B /* InfoPlist.strings */; };
+		451830C216AE66FC00377F5B /* PrimeNumberTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 451830C116AE66FC00377F5B /* PrimeNumberTableTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		451830B816AE66FC00377F5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4518308316AE66FB00377F5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4518308B16AE66FC00377F5B;
+			remoteInfo = PrimeNumberTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4518308C16AE66FC00377F5B /* PrimeNumberTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeNumberTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4518309016AE66FC00377F5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4518309216AE66FC00377F5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4518309416AE66FC00377F5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4518309816AE66FC00377F5B /* PrimeNumberTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeNumberTable-Info.plist"; sourceTree = "<group>"; };
+		4518309A16AE66FC00377F5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4518309C16AE66FC00377F5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4518309E16AE66FC00377F5B /* PrimeNumberTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrimeNumberTable-Prefix.pch"; sourceTree = "<group>"; };
+		4518309F16AE66FC00377F5B /* PNTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNTAppDelegate.h; sourceTree = "<group>"; };
+		451830A016AE66FC00377F5B /* PNTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNTAppDelegate.m; sourceTree = "<group>"; };
+		451830A216AE66FC00377F5B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		451830A416AE66FC00377F5B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		451830A616AE66FC00377F5B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		451830A816AE66FC00377F5B /* PNTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNTViewController.h; sourceTree = "<group>"; };
+		451830A916AE66FC00377F5B /* PNTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNTViewController.m; sourceTree = "<group>"; };
+		451830AC16AE66FC00377F5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PNTViewController.xib; sourceTree = "<group>"; };
+		451830B316AE66FC00377F5B /* PrimeNumberTableTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeNumberTableTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		451830B416AE66FC00377F5B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		451830BC16AE66FC00377F5B /* PrimeNumberTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeNumberTableTests-Info.plist"; sourceTree = "<group>"; };
+		451830BE16AE66FC00377F5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		451830C016AE66FC00377F5B /* PrimeNumberTableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeNumberTableTests.h; sourceTree = "<group>"; };
+		451830C116AE66FC00377F5B /* PrimeNumberTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeNumberTableTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4518308916AE66FC00377F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4518309116AE66FC00377F5B /* UIKit.framework in Frameworks */,
+				4518309316AE66FC00377F5B /* Foundation.framework in Frameworks */,
+				4518309516AE66FC00377F5B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451830AF16AE66FC00377F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451830B516AE66FC00377F5B /* SenTestingKit.framework in Frameworks */,
+				451830B616AE66FC00377F5B /* UIKit.framework in Frameworks */,
+				451830B716AE66FC00377F5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4518308116AE66FB00377F5B = {
+			isa = PBXGroup;
+			children = (
+				4518309616AE66FC00377F5B /* PrimeNumberTable */,
+				451830BA16AE66FC00377F5B /* PrimeNumberTableTests */,
+				4518308F16AE66FC00377F5B /* Frameworks */,
+				4518308D16AE66FC00377F5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4518308D16AE66FC00377F5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4518308C16AE66FC00377F5B /* PrimeNumberTable.app */,
+				451830B316AE66FC00377F5B /* PrimeNumberTableTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4518308F16AE66FC00377F5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4518309016AE66FC00377F5B /* UIKit.framework */,
+				4518309216AE66FC00377F5B /* Foundation.framework */,
+				4518309416AE66FC00377F5B /* CoreGraphics.framework */,
+				451830B416AE66FC00377F5B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4518309616AE66FC00377F5B /* PrimeNumberTable */ = {
+			isa = PBXGroup;
+			children = (
+				4518309F16AE66FC00377F5B /* PNTAppDelegate.h */,
+				451830A016AE66FC00377F5B /* PNTAppDelegate.m */,
+				451830A816AE66FC00377F5B /* PNTViewController.h */,
+				451830A916AE66FC00377F5B /* PNTViewController.m */,
+				451830AB16AE66FC00377F5B /* PNTViewController.xib */,
+				4518309716AE66FC00377F5B /* Supporting Files */,
+			);
+			path = PrimeNumberTable;
+			sourceTree = "<group>";
+		};
+		4518309716AE66FC00377F5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4518309816AE66FC00377F5B /* PrimeNumberTable-Info.plist */,
+				4518309916AE66FC00377F5B /* InfoPlist.strings */,
+				4518309C16AE66FC00377F5B /* main.m */,
+				4518309E16AE66FC00377F5B /* PrimeNumberTable-Prefix.pch */,
+				451830A216AE66FC00377F5B /* Default.png */,
+				451830A416AE66FC00377F5B /* Default@2x.png */,
+				451830A616AE66FC00377F5B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		451830BA16AE66FC00377F5B /* PrimeNumberTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				451830C016AE66FC00377F5B /* PrimeNumberTableTests.h */,
+				451830C116AE66FC00377F5B /* PrimeNumberTableTests.m */,
+				451830BB16AE66FC00377F5B /* Supporting Files */,
+			);
+			path = PrimeNumberTableTests;
+			sourceTree = "<group>";
+		};
+		451830BB16AE66FC00377F5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				451830BC16AE66FC00377F5B /* PrimeNumberTableTests-Info.plist */,
+				451830BD16AE66FC00377F5B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4518308B16AE66FC00377F5B /* PrimeNumberTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451830C516AE66FC00377F5B /* Build configuration list for PBXNativeTarget "PrimeNumberTable" */;
+			buildPhases = (
+				4518308816AE66FC00377F5B /* Sources */,
+				4518308916AE66FC00377F5B /* Frameworks */,
+				4518308A16AE66FC00377F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeNumberTable;
+			productName = PrimeNumberTable;
+			productReference = 4518308C16AE66FC00377F5B /* PrimeNumberTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		451830B216AE66FC00377F5B /* PrimeNumberTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451830C816AE66FC00377F5B /* Build configuration list for PBXNativeTarget "PrimeNumberTableTests" */;
+			buildPhases = (
+				451830AE16AE66FC00377F5B /* Sources */,
+				451830AF16AE66FC00377F5B /* Frameworks */,
+				451830B016AE66FC00377F5B /* Resources */,
+				451830B116AE66FC00377F5B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				451830B916AE66FC00377F5B /* PBXTargetDependency */,
+			);
+			name = PrimeNumberTableTests;
+			productName = PrimeNumberTableTests;
+			productReference = 451830B316AE66FC00377F5B /* PrimeNumberTableTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4518308316AE66FB00377F5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PNT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ruben Quintero";
+			};
+			buildConfigurationList = 4518308616AE66FB00377F5B /* Build configuration list for PBXProject "PrimeNumberTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4518308116AE66FB00377F5B;
+			productRefGroup = 4518308D16AE66FC00377F5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4518308B16AE66FC00377F5B /* PrimeNumberTable */,
+				451830B216AE66FC00377F5B /* PrimeNumberTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4518308A16AE66FC00377F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4518309B16AE66FC00377F5B /* InfoPlist.strings in Resources */,
+				451830A316AE66FC00377F5B /* Default.png in Resources */,
+				451830A516AE66FC00377F5B /* Default@2x.png in Resources */,
+				451830A716AE66FC00377F5B /* Default-568h@2x.png in Resources */,
+				451830AD16AE66FC00377F5B /* PNTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451830B016AE66FC00377F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451830BF16AE66FC00377F5B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		451830B116AE66FC00377F5B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4518308816AE66FC00377F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4518309D16AE66FC00377F5B /* main.m in Sources */,
+				451830A116AE66FC00377F5B /* PNTAppDelegate.m in Sources */,
+				451830AA16AE66FC00377F5B /* PNTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451830AE16AE66FC00377F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451830C216AE66FC00377F5B /* PrimeNumberTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		451830B916AE66FC00377F5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4518308B16AE66FC00377F5B /* PrimeNumberTable */;
+			targetProxy = 451830B816AE66FC00377F5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4518309916AE66FC00377F5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4518309A16AE66FC00377F5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		451830AB16AE66FC00377F5B /* PNTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				451830AC16AE66FC00377F5B /* en */,
+			);
+			name = PNTViewController.xib;
+			sourceTree = "<group>";
+		};
+		451830BD16AE66FC00377F5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				451830BE16AE66FC00377F5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		451830C316AE66FC00377F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		451830C416AE66FC00377F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		451830C616AE66FC00377F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeNumberTable/PrimeNumberTable-Prefix.pch";
+				INFOPLIST_FILE = "PrimeNumberTable/PrimeNumberTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		451830C716AE66FC00377F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeNumberTable/PrimeNumberTable-Prefix.pch";
+				INFOPLIST_FILE = "PrimeNumberTable/PrimeNumberTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		451830C916AE66FC00377F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrimeNumberTable.app/PrimeNumberTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeNumberTable/PrimeNumberTable-Prefix.pch";
+				INFOPLIST_FILE = "PrimeNumberTableTests/PrimeNumberTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		451830CA16AE66FC00377F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrimeNumberTable.app/PrimeNumberTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeNumberTable/PrimeNumberTable-Prefix.pch";
+				INFOPLIST_FILE = "PrimeNumberTableTests/PrimeNumberTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4518308616AE66FB00377F5B /* Build configuration list for PBXProject "PrimeNumberTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451830C316AE66FC00377F5B /* Debug */,
+				451830C416AE66FC00377F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451830C516AE66FC00377F5B /* Build configuration list for PBXNativeTarget "PrimeNumberTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451830C616AE66FC00377F5B /* Debug */,
+				451830C716AE66FC00377F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		451830C816AE66FC00377F5B /* Build configuration list for PBXNativeTarget "PrimeNumberTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451830C916AE66FC00377F5B /* Debug */,
+				451830CA16AE66FC00377F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4518308316AE66FB00377F5B /* Project object */;
+}
