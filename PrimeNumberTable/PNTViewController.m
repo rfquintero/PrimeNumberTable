@@ -1,29 +1,30 @@
-//
-//  PNTViewController.m
-//  PrimeNumberTable
-//
-//  Created by Ruben Quintero on 1/22/13.
-//  Copyright (c) 2013 Ruben Quintero. All rights reserved.
-//
-
 #import "PNTViewController.h"
+#import "PNTModel.h"
+#import "PNTView.h"
 
 @interface PNTViewController ()
-
+@property (nonatomic, strong) PNTModel *primesModel;
+@property (nonatomic, strong) PNTView *primesView;
 @end
 
 @implementation PNTViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+-(id)init {
+    if(self = [super init]) {
+        self.primesModel = [[PNTModel alloc] init];
+        self.title = @"Prime Number Table";
+    }
+    
+    return self;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)loadView {
+    [super loadView];
+    
+    self.primesView = [[PNTView alloc] initWithFrame:self.view.bounds];
+    self.primesView.primeNumbers = [self.primesModel primeNumbersInRange:NSMakeRange(0,100)];
+    self.primesView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    [self.view addSubview:self.primesView];
 }
 
 @end

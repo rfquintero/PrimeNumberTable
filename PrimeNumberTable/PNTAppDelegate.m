@@ -1,11 +1,3 @@
-//
-//  PNTAppDelegate.m
-//  PrimeNumberTable
-//
-//  Created by Ruben Quintero on 1/22/13.
-//  Copyright (c) 2013 Ruben Quintero. All rights reserved.
-//
-
 #import "PNTAppDelegate.h"
 
 #import "PNTViewController.h"
@@ -16,8 +8,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[PNTViewController alloc] initWithNibName:@"PNTViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    self.viewController = [[PNTViewController alloc] init];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
     [self.window makeKeyAndVisible];
     return YES;
 }

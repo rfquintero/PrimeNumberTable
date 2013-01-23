@@ -17,12 +17,14 @@
 		451830A516AE66FC00377F5B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 451830A416AE66FC00377F5B /* Default@2x.png */; };
 		451830A716AE66FC00377F5B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 451830A616AE66FC00377F5B /* Default-568h@2x.png */; };
 		451830AA16AE66FC00377F5B /* PNTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451830A916AE66FC00377F5B /* PNTViewController.m */; };
-		451830AD16AE66FC00377F5B /* PNTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451830AB16AE66FC00377F5B /* PNTViewController.xib */; };
 		451830B516AE66FC00377F5B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451830B416AE66FC00377F5B /* SenTestingKit.framework */; };
 		451830B616AE66FC00377F5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4518309016AE66FC00377F5B /* UIKit.framework */; };
 		451830B716AE66FC00377F5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4518309216AE66FC00377F5B /* Foundation.framework */; };
 		451830BF16AE66FC00377F5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 451830BD16AE66FC00377F5B /* InfoPlist.strings */; };
-		451830C216AE66FC00377F5B /* PrimeNumberTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 451830C116AE66FC00377F5B /* PrimeNumberTableTests.m */; };
+		451830C216AE66FC00377F5B /* PrimeNumberModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 451830C116AE66FC00377F5B /* PrimeNumberModelTest.m */; };
+		451830CD16AE674900377F5B /* PNTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 451830CC16AE674900377F5B /* PNTModel.m */; };
+		45439CEC16B0726200EE6D19 /* PNTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45439CEB16B0726200EE6D19 /* PNTView.m */; };
+		45439CED16B0726200EE6D19 /* PNTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45439CEB16B0726200EE6D19 /* PNTView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,13 +53,15 @@
 		451830A616AE66FC00377F5B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		451830A816AE66FC00377F5B /* PNTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNTViewController.h; sourceTree = "<group>"; };
 		451830A916AE66FC00377F5B /* PNTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNTViewController.m; sourceTree = "<group>"; };
-		451830AC16AE66FC00377F5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PNTViewController.xib; sourceTree = "<group>"; };
 		451830B316AE66FC00377F5B /* PrimeNumberTableTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeNumberTableTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		451830B416AE66FC00377F5B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		451830BC16AE66FC00377F5B /* PrimeNumberTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeNumberTableTests-Info.plist"; sourceTree = "<group>"; };
 		451830BE16AE66FC00377F5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		451830C016AE66FC00377F5B /* PrimeNumberTableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeNumberTableTests.h; sourceTree = "<group>"; };
-		451830C116AE66FC00377F5B /* PrimeNumberTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeNumberTableTests.m; sourceTree = "<group>"; };
+		451830C116AE66FC00377F5B /* PrimeNumberModelTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeNumberModelTest.m; sourceTree = "<group>"; };
+		451830CB16AE674900377F5B /* PNTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNTModel.h; sourceTree = "<group>"; };
+		451830CC16AE674900377F5B /* PNTModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNTModel.m; sourceTree = "<group>"; };
+		45439CEA16B0726200EE6D19 /* PNTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNTView.h; sourceTree = "<group>"; };
+		45439CEB16B0726200EE6D19 /* PNTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNTView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +125,11 @@
 				451830A016AE66FC00377F5B /* PNTAppDelegate.m */,
 				451830A816AE66FC00377F5B /* PNTViewController.h */,
 				451830A916AE66FC00377F5B /* PNTViewController.m */,
-				451830AB16AE66FC00377F5B /* PNTViewController.xib */,
 				4518309716AE66FC00377F5B /* Supporting Files */,
+				451830CB16AE674900377F5B /* PNTModel.h */,
+				451830CC16AE674900377F5B /* PNTModel.m */,
+				45439CEA16B0726200EE6D19 /* PNTView.h */,
+				45439CEB16B0726200EE6D19 /* PNTView.m */,
 			);
 			path = PrimeNumberTable;
 			sourceTree = "<group>";
@@ -144,8 +151,7 @@
 		451830BA16AE66FC00377F5B /* PrimeNumberTableTests */ = {
 			isa = PBXGroup;
 			children = (
-				451830C016AE66FC00377F5B /* PrimeNumberTableTests.h */,
-				451830C116AE66FC00377F5B /* PrimeNumberTableTests.m */,
+				451830C116AE66FC00377F5B /* PrimeNumberModelTest.m */,
 				451830BB16AE66FC00377F5B /* Supporting Files */,
 			);
 			path = PrimeNumberTableTests;
@@ -236,7 +242,6 @@
 				451830A316AE66FC00377F5B /* Default.png in Resources */,
 				451830A516AE66FC00377F5B /* Default@2x.png in Resources */,
 				451830A716AE66FC00377F5B /* Default-568h@2x.png in Resources */,
-				451830AD16AE66FC00377F5B /* PNTViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +279,8 @@
 				4518309D16AE66FC00377F5B /* main.m in Sources */,
 				451830A116AE66FC00377F5B /* PNTAppDelegate.m in Sources */,
 				451830AA16AE66FC00377F5B /* PNTViewController.m in Sources */,
+				451830CD16AE674900377F5B /* PNTModel.m in Sources */,
+				45439CEC16B0726200EE6D19 /* PNTView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				451830C216AE66FC00377F5B /* PrimeNumberTableTests.m in Sources */,
+				451830C216AE66FC00377F5B /* PrimeNumberModelTest.m in Sources */,
+				45439CED16B0726200EE6D19 /* PNTView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +310,6 @@
 				4518309A16AE66FC00377F5B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		451830AB16AE66FC00377F5B /* PNTViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				451830AC16AE66FC00377F5B /* en */,
-			);
-			name = PNTViewController.xib;
 			sourceTree = "<group>";
 		};
 		451830BD16AE66FC00377F5B /* InfoPlist.strings */ = {
@@ -448,6 +448,7 @@
 				451830C716AE66FC00377F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		451830C816AE66FC00377F5B /* Build configuration list for PBXNativeTarget "PrimeNumberTableTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +457,7 @@
 				451830CA16AE66FC00377F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
